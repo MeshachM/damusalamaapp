@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="simpleRatingBar" type="id" />
+    <item name="submitButton" type="id" />
+    <item name="btl" type="id" />
+    <item name="phn" type="id" />
+    <item name="addr" type="id" />
+    <item name="cadono" type="id" />
+    <item name="phone" type="id" />
+    <item name="bgr" type="id" />
+    <item name="paadd" type="id" />
+    <item name="text_notifications" type="id" />
+    <item name="reginmbtn" type="id" />
+    <item name="address" type="id" />
+    <item name="nav_view" type="id" />
+    <item name="tbtl" type="id" />
+    <item name="tphn" type="id" />
+    <item name="tphone" type="id" />
+    <item name="taddr" type="id" />
+    <item name="tcadono" type="id" />
+    <item name="tpaadd" type="id" />
+    <item name="tbgr" type="id" />
+    <item name="submitqn" type="id" />
+    <item name="swali" type="id" />
+    <item name="jibu" type="id" />
+    <item name="submitans" type="id" />
+    <item name="namba" type="id" />
+    <item name="phonecall" type="id" />
+    <item name="mphone" type="id" />
+    <item name="tmphone" type="id" />
+    <item name="tnamba" type="id" />
+    <item name="tmbgr" type="id" />
+    <item name="tmpaadd" type="id" />
+    <item name="tmnamba" type="id" />
+    <item name="tmmphone" type="id" />
+    <item name="tmmcall" type="id" />
+</resources>

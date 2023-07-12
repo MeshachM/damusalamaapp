@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:id="@+id/drawerT"
+    android:layout_gravity="left"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeTActivity">
+    
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:id="@+id/container"
+    tools:context=".HomeMActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:elevation="4dp"
+        app:menu="@menu/main_menu"
+        android:id="@+id/my_toolbar_t"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/my_toolbar_t"
+        tools:layout_editor_absoluteX="190dp">
+
+        <TextView
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:text="ENTER DONOR'S RECORDS"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/dname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:hint=" Enter Donor's Full Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/idno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:hint=" Enter Blood Registration Card Number"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:hint="Choose Donor's Blood Group" />
+
+        <EditText
+            android:id="@+id/dadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:hint=" Enter Donor's Current Address"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:hint=" Enter Donor's Phone Number"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:ems="10"
+            android:hint=" Donation Date"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/subtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="30sp"
+            android:layout_marginEnd="30dp"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            app:backgroundTint="#29C5B2" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        />
+</androidx.drawerlayout.widget.DrawerLayout>

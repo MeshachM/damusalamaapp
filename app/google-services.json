@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "691555465489",
+    "project_id": "damusalama-30418",
+    "storage_bucket": "damusalama-30418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691555465489:android:a1efcf39e429e9bb81b4b0",
+        "android_client_info": {
+          "package_name": "com.example.damusalama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691555465489-ioofodi8o7sf9092vddvicqivab0s9n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiWIw47FKE8FyQEuB19_c_ozyBYUr1Yqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691555465489-ioofodi8o7sf9092vddvicqivab0s9n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

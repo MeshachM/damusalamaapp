@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_make"
+        app:showAsAction="never"
+        android:title="Find Donor" />
+    <item
+        android:id="@+id/nav_viewreq"
+        app:showAsAction="never"
+        android:title="View Donation Request" />
+
+    <item
+        android:id="@+id/nav_answer"
+        app:showAsAction="never"
+        android:title="Answer Questions" />
+
+    <item
+    android:title="Sign out"
+    app:showAsAction="never"
+    android:id="@+id/menu_sign_out"/>
+</menu>

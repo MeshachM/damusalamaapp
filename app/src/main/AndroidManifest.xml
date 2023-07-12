@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.damusalama">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_blogo"
+        android:label="Damu Salama"
+        android:roundIcon="@mipmap/ic_blogo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".LocationActivity"></activity>
+        <activity android:name=".HomeTechAnswerActivity" />
+        <activity android:name=".HomeTechViewActivity" />
+        <activity
+            android:name=".HomeTechMakeActivity"/>
+        <activity android:name=".CaptureLocation" />
+        <activity
+
+            android:name=".HomeMActivity"
+            />
+        <activity android:name=".HomeTActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RMemberActivity" />
+        <activity android:name=".RTechnicianActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

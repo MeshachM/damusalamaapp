@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">damusalama</string>
+    <string-array name="Blood_Groups">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string name="title_activity_home_m">HomeMActivity</string>
+    <string name="title_home">Find Donor</string>
+    <string name="title_dashboard">Donate</string>
+    <string name="title_notifications">Questions/Answers</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_home_tech">MainActivity</string>
+    <string name="title_activity_home_tech_make">HomeTechMake</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="access_token">pk.eyJ1IjoiZGFtdXNhbGFtYTEwMCIsImEiOiJja3NjMXBhbjgwYzM5MnZxcWlsbWdicHZjIn0.mhOGZBGAzYM_h3QminMEoQ</string>
+    <string name="user_location_permission_explanation">This app needs location permissions to show its functionality,</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions,</string>
+    <string name="start_walking">start walking</string>
+    <string name="back">back</string>
+    <string name="geocode_no_results">No geocoder results, Choose different location and try again,</string>
+    <string name="api_response_error">API response error: \'%1$s\',</string>
+    <string name="poi_name_key">poiName</string>
+    <string name="address_key">address</string>
+    <string name="poisearch_hint">Kind of place to add to your route</string>
+    <string name="no_search_results">No search results for \'%1$s\', Please try another search term,</string>
+    <string name="add_to_my_route">Add to my route</string>
+    <string name="ROUTING_API_KEY">2QPah24v0sO7c5BX5BiI7qHswc4bbBLo</string>
+
+    <string name="traffic_on">Traffic ON</string>
+    <string name="traffic_off">Traffic OFF</string>
+    <string name="route_show">Route SHOW</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
